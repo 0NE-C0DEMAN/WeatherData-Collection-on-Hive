@@ -1,0 +1,14 @@
+ 
+############ Follow these Instructions to make the ETL process automatic ########
+
+1. start hdfs   -> start-dfs.sh
+2. start yarn   -> start-yarn.sh
+3. start spark  -> start-master.sh
+4. start worker -> start-worker.sh spark://ubuntu:7077
+
+
+5. From "Miniproject" folder copy "miniproject.hql" file into $HIVE_HOME/  -> cp miniproject.hql $HIVE_HOME/
+6. Start hive and create database and table according to "hiveQuery.hql" file or follow commands as used in "hiveoutput.txt" file
+7. Make a crontab according "cronjob.txt" file
+8. Done
+
